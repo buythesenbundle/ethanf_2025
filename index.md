@@ -5,7 +5,7 @@ description: Home Page
 hide: true
 ---
 
-My journey starts here.
+Ethan Fu's journey starts here.
 
 ### Markdown [markdown cheat sheet](https://www.markdownguide.org/getting-started/)
 Using markdown from index.md, we are learning markdown
@@ -41,3 +41,4 @@ Using markdown from index.md, we are learning markdown
 ```
 
 ![66b3e2b30608f3f68caf31d3_94](https://github.com/user-attachments/assets/81abc264-a141-42ac-bc6d-e06fe9cca1b0)
+
