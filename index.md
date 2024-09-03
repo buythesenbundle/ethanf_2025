@@ -1,3 +1,11 @@
+---
+layout: base
+title: Student Home 
+description: Home Page
+image: /images/mario_animation.png
+hide: true
+---
+
 <!-- Liquid:  statements -->
 
 <!-- Include submenu from _includes to top of pages -->
@@ -181,14 +189,6 @@
   });
 
 </script>
-
----
-layout: base
-title: Student Home 
-description: Home Page
-image: /images/mario_animation.png
-hide: true
----
 
 Ethan Fu's journey starts here.
 
