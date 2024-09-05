@@ -11,7 +11,7 @@ Creator of Student 2025
     .grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Dynamic columns */
-        gap: 10px;
+        gap: 25px;
     }
     .grid-item {
         text-align: center;
@@ -22,7 +22,7 @@ Creator of Student 2025
         object-fit: contain; /* Ensure the image fits within the fixed height */
     }
     .grid-item p {
-        margin: 15px 0; /* Add some margin for spacing */
+        margin: 5px 0; /* Add some margin for spacing */
     }
 </style>
 
