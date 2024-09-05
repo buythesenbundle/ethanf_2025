@@ -42,7 +42,7 @@ Student of 2025
         {"flag": "d/de/In-N-Out_Burger_Animal_Fries_and_burger.jpg", "greeting": "My favorite item on the menu are the animal fries", "description": "Favorite Fast Food: In-N-Out"},
         {"flag": "5/52/Rain_on_the_car_window%2C_Lianjiang.jpg", "greeting": "(But only every once in a while though)", "description": "Favorite Weather: Rainy"},
         {"flag": "e/ea/Coffee_Caramel_Swirl_-endofanera_%2814373508078%29.jpg", "greeting": "Coffee is underrated, mint chocolate chip is overrated", "description": "Favorite Ice Cream Flavor: Coffee"},
-        {"flag": "a/a2/Mixed_onions.jpg", "greeting": "I like onions so much i could eat them raw (maybe with sauce though)", "description": "Favorite Vegetable: Onion"},
+        {"flag": "a/a2/Mixed_onions.jpg", "greeting": "I like onions so much I could eat them raw (maybe with sauce though)", "description": "Favorite Vegetable: Onion"},
     ]; 
     
     // 3a. Consider how to update style count for size of container
