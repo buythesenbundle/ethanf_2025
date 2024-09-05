@@ -17,8 +17,8 @@ Creator of Student 2025
         text-align: center;
     }
     .grid-item img {
-        width: 100%;
-        height: 100px; /* Fixed height for uniformity */
+        width: 200%;
+        height: 200px; /* Fixed height for uniformity */
         object-fit: contain; /* Ensure the image fits within the fixed height */
     }
     .grid-item p {
