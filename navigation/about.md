@@ -17,12 +17,12 @@ Creator of Student 2025
         text-align: center;
     }
     .grid-item img {
-        width: 400%;
-        height: 400px; /* Fixed height for uniformity */
+        width: 300%;
+        height: 300px; /* Fixed height for uniformity */
         object-fit: contain; /* Ensure the image fits within the fixed height */
     }
     .grid-item p {
-        margin: 5px 0; /* Add some margin for spacing */
+        margin: 15px 0; /* Add some margin for spacing */
     }
 </style>
 
