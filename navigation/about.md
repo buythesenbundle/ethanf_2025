@@ -1,10 +1,12 @@
 ---
 layout: page
-title: About Me (Misc. Favorites)
+title: About
 permalink: /about/
 ---
 
-Student of 2025
+Class of 2028
+
+##Here are some of my favorite things
 
 <style>
     /* Style looks pretty compact, trace grid-container and grid-item in the code */
