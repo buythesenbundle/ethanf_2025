@@ -75,5 +75,3 @@ Student of 2025
         container.appendChild(gridItem);
     }
 </script>
-
->nfu2niufnwuiewfnwreufnwrf
