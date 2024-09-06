@@ -78,7 +78,7 @@ Class of 2028
     }
 </script>
 
-/*testing for image gallery*/
+/* testing for image gallery */
 <div class="image-gallery">
   <img src="/ethanf_2025/images/about/bluetrol.png" alt="Image 1">
   <img src="/portfolio_2025/images/about/john_tamara.jpg" alt="Image 2">
