@@ -77,3 +77,19 @@ Class of 2028
         container.appendChild(gridItem);
     }
 </script>
+
+/testing for image gallery/
+<div class="image-gallery">
+  <img src="/portfolio_2025/images/about/bluetrol.png" alt="Image 1">
+  <img src="/portfolio_2025/images/about/john_tamara.jpg" alt="Image 2">
+  <img src="/portfolio_2025/images/about/tamara_fam.jpg" alt="Image 3">
+  <img src="/portfolio_2025/images/about/surf.jpg" alt="Image 4">
+  <img src="/portfolio_2025/images/about/john_lora.jpg" alt="Image 5">
+  <img src="/portfolio_2025/images/about/lora_fam.jpg" alt="Image 6">
+  <img src="/portfolio_2025/images/about/lora_fam2.jpg" alt="Image 7">
+  <img src="/portfolio_2025/images/about/pj_party.jpg" alt="Image 8">
+  <img src="/portfolio_2025/images/about/trent.jpg" alt="Image 9">
+  <img src="/portfolio_2025/images/about/claire.jpg" alt="Image 10">
+  <img src="/portfolio_2025/images/about/grandkids.jpg" alt="Image 11">
+  <img src="/portfolio_2025/images/about/farm.jpg" alt="Image 12">
+</div>
