@@ -76,6 +76,4 @@ Student of 2025
     }
 </script>
 
-```markdown
-
-#wpjtgoprjgoiw4jgrwoigjr
+>nfu2niufnwuiewfnwreufnwrf
