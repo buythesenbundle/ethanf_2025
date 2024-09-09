@@ -78,9 +78,10 @@ Class of 2028
     }
 </script>
 
-/* testing for image gallery */
 <div class="image-gallery">
-  <img src="{{site.baseurl}}/images/about/val_logo.png" alt="Image 1">
-  <img src="{{site.baseurl}}/images/about/minecraft_logo.webp" alt="Image 2">
-  <img src="{{site.baseurl}}/images/about/celeste_logo.png" alt="Image 3">
+  <img src="{{site.baseurl}}/images/about/1984.jpg" alt="Image 1">
+  <img src="{{site.baseurl}}/images/about/dune.jpg" alt="Image 2">
+  <img src="{{site.baseurl}}/images/about/fahrenheit451.jpg" alt="Image 3">
+  <img src="{{site.baseurl}}/images/about/thegiver.jpg" alt="Image 4">
+  <img src="{{site.baseurl}}/images/about/thehobbit.jpg" alt="Image 5">
 </div>
