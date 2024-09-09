@@ -97,4 +97,5 @@ Class of 2028
   <img src="{{site.baseurl}}/images/about/fahrenheit451.jpg" alt="Image 3">
   <img src="{{site.baseurl}}/images/about/thegiver.jpg" alt="Image 4">
   <img src="{{site.baseurl}}/images/about/thehobbit.jpg" alt="Image 5">
+  <img src="{{site.baseurl}}/images/about/somethingwickedthiswaycomes.jfif" alt="Image 6">
 </div>
