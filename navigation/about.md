@@ -35,7 +35,7 @@ Class of 2028
         }
 
     .image-gallery img {
-        max-height: 150px;
+        max-height: 300px;
         object-fit: cover;
         border-radius: 5px;
     }
