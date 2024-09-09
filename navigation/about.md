@@ -6,7 +6,7 @@ permalink: /about/
 
 Class of 2028
 
-##Here are some of my favorite things
+## Here are some of my favorite things
 
 <style>
     /* Style looks pretty compact, trace grid-container and grid-item in the code */
