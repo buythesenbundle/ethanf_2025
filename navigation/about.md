@@ -106,7 +106,7 @@ I like reading, and I've read a pretty good amount of books in my lifetime so fa
 
 <!-- Use this script to add comments to your blog posts manually
 <script src="https://utteranc.es/client.js"
-        repo="nighthawkcoders/ethanf_2025"
+        repo="buythesenbundle/ethanf_2025"
         issue-term="title"
         label="blogpost-comment"
         theme="github-light"
