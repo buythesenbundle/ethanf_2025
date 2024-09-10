@@ -104,7 +104,6 @@ I like reading, and I've read a pretty good amount of books in my lifetime so fa
   <img src="{{site.baseurl}}/images/about/somethingwickedthiswaycomes.jfif" alt="Image 6">
 </div>
 
-<!-- Use this script to add comments to your blog posts manually
 <script src="https://utteranc.es/client.js"
         repo="buythesenbundle/ethanf_2025"
         issue-term="title"
