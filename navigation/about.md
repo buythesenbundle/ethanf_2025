@@ -91,6 +91,10 @@ Class of 2028
     }
 </script>
 
+# Reading
+
+I like reading, and I've read a pretty good amount of books in my lifetime so far. Here are some of the best ones I've read so far
+
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/1984.jpg" alt="Image 1">
   <img src="{{site.baseurl}}/images/about/dune.jpg" alt="Image 2">
