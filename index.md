@@ -226,3 +226,14 @@ Using markdown from index.md, we are learning markdown
 ```
 
 ![66b3e2b30608f3f68caf31d3_94](https://github.com/user-attachments/assets/81abc264-a141-42ac-bc6d-e06fe9cca1b0)
+
+<!-- Use this script to add comments to your blog posts manually
+<script src="https://utteranc.es/client.js"
+        repo="nighthawkcoders/portfolio_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+-->
