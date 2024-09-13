@@ -307,19 +307,19 @@ permalink: /snake
         let changeDir = function(key){
             // test key and switch direction
             switch(key) {
-                case 37:    // a
+                case 65:    // a
                     if (snake_dir !== 1)    // not right
                         snake_next_dir = 3; // then switch left
                     break;
-                case 38:    // w
+                case 87:    // w
                     if (snake_dir !== 2)    // not down
                         snake_next_dir = 0; // then switch up
                     break;
-                case 39:    // d
+                case 68:    // d
                     if (snake_dir !== 3)    // not left
                         snake_next_dir = 1; // then switch right
                     break;
-                case 40:    // s
+                case 83:    // s
                     if (snake_dir !== 0)    // not up
                         snake_next_dir = 2; // then switch down
                     break;
