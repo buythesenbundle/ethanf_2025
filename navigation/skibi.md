@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Skibi
-permalink: /skibi/
+title: Interests
+permalink: /interests/
 ---
 
 {% include nav/home.html %}
 
-## hello balls
+## Games
