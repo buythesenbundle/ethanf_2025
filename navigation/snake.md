@@ -268,7 +268,7 @@ permalink: /snake
             }
             // Repaint canvas
             ctx.beginPath();
-            ctx.fillStyle = "royalblue";
+            ctx.fillStyle = "#ffe5cf ";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
             // Paint snake
             for(let i = 0; i < snake.length; i++){
@@ -328,7 +328,7 @@ permalink: /snake
         /* Dot for Food or Snake part */
         /////////////////////////////////////////////////////////////
         let activeDot = function(x, y){
-            ctx.fillStyle = "#ff8567";
+            ctx.fillStyle = "#ff8686";
             ctx.fillRect(x * BLOCK, y * BLOCK, BLOCK, BLOCK);
         }
         /* Random food placement */
