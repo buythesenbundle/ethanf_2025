@@ -8,6 +8,9 @@ hide: true
 <!-- Include submenu from _includes to top of pages -->
 {% include nav/home.html %}
 
+### Hacks
+{% include nav/hacks.html %}
+
 Ethan Fu's journey starts here.
 
 ### Markdown [markdown cheat sheet](https://www.markdownguide.org/getting-started/)
@@ -45,15 +48,7 @@ Using markdown from index.md, we are learning markdown
 
 ![66b3e2b30608f3f68caf31d3_94](https://github.com/user-attachments/assets/81abc264-a141-42ac-bc6d-e06fe9cca1b0)
 
-<div>
-  <p>Free Robux generator working 2024 not clickbait 10000% real Mr Beast and FDA approved</p>
-  <button>free robux</button>
-</div>
-&nbsp;
-<div>
-  <a href="https://theonion.com/diddy-i-will-beat-these-charges-senseless/">Proof 1</a>
-  <a href="https://theonion.com/iowa-state-fair-visitor-gored-by-500-pound-yam-1851607877/">Proof 2</a>
-  <p>Proof robux generator works (not scam very real and working 2024)</p>
+
 
 <!-- Liquid:  statements -->
 
@@ -236,5 +231,13 @@ Using markdown from index.md, we are learning markdown
     mario.startResting();
   });
 
+</script>
 
+<script src="https://utteranc.es/client.js"
+        repo="buythesenbundle/ethanf_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
 </script>
