@@ -5,11 +5,6 @@ course: htmlhack
 menu: nav/home.html
 ---
 
-{% include nav/home.html %}
-
-### Hacks
-{% include nav/hacks.html %}
-
 <div>
   <p>Free Robux generator working 2024 not clickbait 10000% real Mr Beast and FDA approved</p>
   <button>free robux</button>
