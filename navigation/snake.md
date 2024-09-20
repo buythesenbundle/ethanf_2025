@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Snake Game
-permalink: /snake
+course: snake
+menu: nav/home.html
 ---
 
 <style>
