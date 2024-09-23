@@ -1,7 +1,7 @@
 ---
 title: Binary Calculator
 layout: page
-course: javacalc
+course: binarycalc
 menu: nav/hacks.html
 ---
 
