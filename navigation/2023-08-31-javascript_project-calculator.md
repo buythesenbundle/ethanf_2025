@@ -1,12 +1,8 @@
 ---
-layout: post
+layout: page
 title: Javascript Calculator
-description: A common way to become familiar with a language is to build a calculator.  This calculator shows off button with actions.
-categories: [Javascript]
-permalink: /javascript/project/calculator
-menu: nav/javascript_project.html
-toc: true
-comments: false
+course: binarycalc
+menu: nav/hacks.html
 ---
 
 <!-- 
