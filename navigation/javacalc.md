@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Javascript Calculator
-course: binarycalc
+course: javacalc
 menu: nav/hacks.html
 ---
 
