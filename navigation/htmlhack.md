@@ -2,7 +2,7 @@
 layout: page
 title: HTML Hack
 course: htmlhack
-menu: nav/hacks.html
+menu: nav/frontend_basics.html
 ---
 
 {% include nav/home.html %}
