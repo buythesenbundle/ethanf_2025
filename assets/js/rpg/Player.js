@@ -212,19 +212,19 @@ class Player {
     handleKeyDown({ keyCode }) {
         switch (keyCode) {
             case 87: // 'W' key
-                this.velocity.y -= this.yVelocity;
+                this.velocity.y = -this.yVelocity * 2; // Set velocity to a fixed value
                 this.direction = 'up';
                 break;
             case 65: // 'A' key
-                this.velocity.x -= this.xVelocity;
+                this.velocity.x = -this.xVelocity * 2; // Set velocity to a fixed value
                 this.direction = 'left';
                 break;
             case 83: // 'S' key
-                this.velocity.y += this.yVelocity;
+                this.velocity.y = this.yVelocity * 2; // Set velocity to a fixed value
                 this.direction = 'down';
                 break;
             case 68: // 'D' key
-                this.velocity.x += this.xVelocity;
+                this.velocity.x = this.xVelocity * 2; // Set velocity to a fixed value
                 this.direction = 'right';
                 break;
         }
@@ -240,16 +240,12 @@ class Player {
     handleKeyUp({ keyCode }) {
         switch (keyCode) {
             case 87: // 'W' key
-                this.velocity.y = 0;
+            case 83: // 'S' key
+                this.velocity.y = 0; // Stop vertical movement
                 break;
             case 65: // 'A' key
-                this.velocity.x = 0;
-                break;
-            case 83: // 'S' key
-                this.velocity.y = 0;
-                break;
             case 68: // 'D' key
-                this.velocity.x = 0;
+                this.velocity.x = 0; // Stop horizontal movement
                 break;
         }
     }
