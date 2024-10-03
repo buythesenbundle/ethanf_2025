@@ -9,10 +9,12 @@ menu: nav/home.html
 
 ### Game Style:
 
-Nova Drift/bullet hell style top-down survival game where you kill enemies to gain xp and gain/upgrade weapons, object is to survive as long as possible with the limited amount of HP you have
+Nova Drift/bullet hell style top-down survival game where you kill enemies to gain xp and gain/upgrade weapons, object is to survive as long as possible with the limited amount of HP you have 
 
 ## Planned Features:
 
+- Player:
+    - Controlled by mouse, use keys to use weapons
 - Enemies:
     - At least 2 types of enemies (ranged, melee)
 - Weapons:
