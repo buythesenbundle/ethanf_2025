@@ -5,13 +5,24 @@ course: ideas
 menu: nav/home.html
 ---
 
-### RPG
+{% include nav/home.html %}
 
-## (Hopefully) Add:
+### Game Style:
 
-- Rocket launcher that shoots rockets where the mouse points
-- Enemies that take damage from rocket launcher
-- Give rocket launcher splash damage
-- Make it possible for player to be blocked by houses, shrubs, etc.
-- Give the player a point score for how many enemies they take out
-- Give the game background music
+Nova Drift/bullet hell style top-down survival game where you kill enemies to gain xp and gain/upgrade weapons, object is to survive as long as possible with the limited amount of HP you have
+
+## Planned Features:
+
+- Enemies:
+    - At least 2 types of enemies (ranged, melee)
+- Weapons:
+    - Different types of playstyles for different weapons, such as magic, melee, evasion, tank, etc.
+- Skill Tree:
+    - Gain skill tree points that take longer to get, but allows players to further spec into their build's niches
+- Difficulty: 
+    - Only one difficulty, endless waves, but enemy HP increases over time
+        - Score is gained based on time alive
+- Theming:
+    - Futuristic, Neon colors, pixel art
+- Bosses:
+    - At least one boss with unique mechanics
