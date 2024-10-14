@@ -1,4 +1,3 @@
-
 import GameEnv from './GameEnv.js';
 
 class Railgun {
@@ -53,7 +52,25 @@ class Railgun {
             GameEnv.ctx.fill();
             GameEnv.ctx.closePath();
         });
+
+        // Draw cooldown bar
+        const currentTime = Date.now();
+        const timeSinceLastShot = currentTime - this.lastShotTime;
+        const cooldownRatio = Math.min(timeSinceLastShot / this.cooldown, 1);
+
+        const barWidth = 200;
+        const barHeight = 10;
+        const barX = (GameEnv.innerWidth - barWidth) / 2;
+        const barY = GameEnv.innerHeight - 30;
+
+        GameEnv.ctx.fillStyle = 'white';
+        GameEnv.ctx.fillRect(barX, barY, barWidth * cooldownRatio, barHeight);
+
+        GameEnv.ctx.strokeStyle = 'white';
+        GameEnv.ctx.strokeRect(barX, barY, barWidth, barHeight);
     }
 }
 
 export default Railgun;
+
+// :3
