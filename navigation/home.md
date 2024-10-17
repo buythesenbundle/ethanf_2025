@@ -41,17 +41,17 @@ This blog contains my journey into Coding.
             Snake Game
         </div>
     </a>
-    <a href="https://buythesenbundle.github.io/ethanf_2025/rpg0x/" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/rpg0x/" style="text-decoration: none;">
         <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Turtle v0.0
         </div>
     </a>
-    <a href="https://buythesenbundle.github.io/ethanf_2025/rpg01x/" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/rpg0.1x/" style="text-decoration: none;">
         <div style="background-color: #FF8800; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Space v0.1
         </div>
     </a>
-    <a href="https://buythesenbundle.github.io/ethanf_2025/rpg02x/" style="text-decoration: none;">
+    <a href="{{site.baseurl}}/rpg0.2x/" style="text-decoration: none;">
         <div style="background-color: #FFFF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Space v0.2
         </div>

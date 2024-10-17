@@ -4,10 +4,16 @@ class Railgun {
     constructor(player) {
         this.player = player;
         this.bullets = [];
+        this.lastShotTime = 0;    // Track the time of the last shot
+        this.cooldown = 100;      // Cooldown in milliseconds (e.g., 500ms)
     }
 
     shoot() {
         const currentTime = Date.now();
+
+        if (currentTime - this.lastShotTime < this.cooldown) {
+            return; // Prevent shooting if still in cooldown
+        }
 
         this.lastShotTime = currentTime; // Update the last shot time
 

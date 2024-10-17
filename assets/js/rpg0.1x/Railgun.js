@@ -4,17 +4,10 @@ class Railgun {
     constructor(player) {
         this.player = player;
         this.bullets = [];
-        this.lastShotTime = 0;    // Track the time of the last shot
-        this.cooldown = 1000;      // Cooldown in milliseconds (e.g., 500ms)
     }
 
     shoot() {
         const currentTime = Date.now();
-
-        // Check if enough time has passed since the last shot
-        if (currentTime - this.lastShotTime < this.cooldown) {
-            return; // Prevent shooting if still in cooldown
-        }
 
         this.lastShotTime = currentTime; // Update the last shot time
 
@@ -52,22 +45,6 @@ class Railgun {
             GameEnv.ctx.fill();
             GameEnv.ctx.closePath();
         });
-
-        // Draw cooldown bar
-        const currentTime = Date.now();
-        const timeSinceLastShot = currentTime - this.lastShotTime;
-        const cooldownRatio = Math.min(timeSinceLastShot / this.cooldown, 1);
-
-        const barWidth = 200;
-        const barHeight = 10;
-        const barX = (GameEnv.innerWidth - barWidth) / 2;
-        const barY = GameEnv.innerHeight - 30;
-
-        GameEnv.ctx.fillStyle = 'white';
-        GameEnv.ctx.fillRect(barX, barY, barWidth * cooldownRatio, barHeight);
-
-        GameEnv.ctx.strokeStyle = 'white';
-        GameEnv.ctx.strokeRect(barX, barY, barWidth, barHeight);
     }
 }
 

@@ -31,3 +31,5 @@ export class Background {
 }
 
 export default Background;
+
+// :3
