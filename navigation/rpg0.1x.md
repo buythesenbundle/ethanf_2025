@@ -1,16 +1,16 @@
 ---
 layout: base
 title: RPG
-permalink: /rpg/
+permalink: /rpg0.1x/
 ---
 
 <canvas id='gameCanvas'></canvas>
 
 <script type="module">
-    import GameControl from '{{site.baseurl}}/assets/js/rpg/GameControl.js';
+    import GameControl from '{{site.baseurl}}/assets/js/rpg01x/GameControl.js';
 
     // Background data
-    const image_src = "{{site.baseurl}}/images/rpg/background/bg_0.png";
+    const image_src = "{{site.baseurl}}/images/rpg/background/traveler.jpg";
     const image_data = {
         pixels: {height: 1080, width: 1920}
     };
