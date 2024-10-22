@@ -12,7 +12,13 @@ permalink: /rpg0.2x/
     // Background data
     const image_src = "{{site.baseurl}}/images/rpg/background/bg_0.png";
     const image_data = {
-        pixels: {height: 1080, width: 1920}
+    SCALE_FACTOR: 0.001,  // Scaling the size of the sprite
+    STEP_FACTOR: 1000, // Timing for movement or steps
+    ANIMATION_RATE: 50, // Animation frame rate in milliseconds
+    pixels: {height: 395, width: 1000}, // Size of a single frame in the sprite sheet
+    columns: 7, // Number of columns in the sprite sheet
+    rows: 1,   // Number of rows in the sprite sheet
+    totalFrames: 7 // Total number of frames in the sprite sheet (columns * rows)
     };
     const image = {src: image_src, data: image_data};
 

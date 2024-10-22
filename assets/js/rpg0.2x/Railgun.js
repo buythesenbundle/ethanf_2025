@@ -60,13 +60,13 @@ class Railgun {
         const barWidth = (GameEnv.innerWidth)/55;
         const barHeight = (GameEnv.innerHeight)/5;
         const barX = (GameEnv.innerWidth - barWidth)/1.02;
-        const barY = (GameEnv.innerHeight - barHeight)/1.02;
+        const barY = (GameEnv.innerHeight - barHeight) / 1.02 + barHeight * (1 - cooldownRatio);
 
         GameEnv.ctx.fillStyle = 'white';
-        GameEnv.ctx.fillRect(barX, barY, barWidth * cooldownRatio, barHeight);
+        GameEnv.ctx.fillRect(barX, barY, barWidth, barHeight * cooldownRatio);
 
         GameEnv.ctx.strokeStyle = 'white';
-        GameEnv.ctx.strokeRect(barX, barY, barWidth, barHeight);
+        GameEnv.ctx.strokeRect(barX, (GameEnv.innerHeight - barHeight) / 1.02, barWidth, barHeight);
     }
 }
 
