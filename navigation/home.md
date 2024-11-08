@@ -140,6 +140,7 @@ This blog contains my journey into Coding.
             Classes and Methods Hack
         </div>
     </a>
+</div>
 
 <br>
 
@@ -151,3 +152,4 @@ This blog contains my journey into Coding.
             Feedback
         </div>
     </a>
+</div>
