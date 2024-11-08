@@ -113,3 +113,12 @@ This blog contains my journey into Coding.
         </div>
     </a>
 </div>
+
+## Feedback
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="https://github.com/buythesenbundle/ethanf_2025/issues/14" style="text-decoration: none;">
+        <div style="background-color: #FFFF00; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Feedback
+        </div>
+    </a>
