@@ -114,6 +114,31 @@ This blog contains my journey into Coding.
     </a>
 </div>
 
+## Lesson
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/intro"
+    style="text-decoration: none;">
+        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Classes and Methods Intro
+        </div>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/methods"
+    style="text-decoration: none;">
+        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Methods lesson
+        </div>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/statics"
+    style="text-decoration: none;">
+        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Static Variables Lesson
+        </div>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/hacks"
+    style="text-decoration: none;">
+        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Classes and Methods Hack
+        </div>
+    </a>
+
 ## Feedback
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
