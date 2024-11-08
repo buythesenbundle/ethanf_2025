@@ -124,16 +124,19 @@ This blog contains my journey into Coding.
         <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Classes and Methods Intro
         </div>
+    </a>
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/methods"
     style="text-decoration: none;">
         <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Methods lesson
         </div>
+    </a>
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/statics"
     style="text-decoration: none;">
         <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Static Variables Lesson
         </div>
+    </a>
     <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/hacks"
     style="text-decoration: none;">
         <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
