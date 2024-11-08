@@ -6,7 +6,7 @@ description: Home Page
 hide: true
 ---
 
-## Home
+# Home
 
 This blog contains my journey into Coding.
 
