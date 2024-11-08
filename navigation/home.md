@@ -114,6 +114,8 @@ This blog contains my journey into Coding.
     </a>
 </div>
 
+<br>
+
 ## Lesson
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
@@ -138,6 +140,8 @@ This blog contains my journey into Coding.
             Classes and Methods Hack
         </div>
     </a>
+
+<br>
 
 ## Feedback
 
