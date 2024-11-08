@@ -85,4 +85,31 @@ This blog contains my journey into Coding.
             JSON Objects
         </div>
     </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/variables/hacks" style="text-decoration: none;">
+        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Variables Hack
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/nested_conditionals/hacks" style="text-decoration: none;">
+        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Nested Conditionals Hack
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/mathematic_expressions/hacks" style="text-decoration: none;">
+        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Math Expressions Hack
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/conditionals/hacks"
+    style="text-decoration: none;">
+        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Conditionals Hack
+        </div>
+    </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/hacks"
+    style="text-decoration: none;">
+        <div style="background-color: #000000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Classes Hack
+        </div>
+    </a>
 </div>
