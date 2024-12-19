@@ -112,6 +112,12 @@ This blog contains my journey into Coding.
             Classes Hack
         </div>
     </a>
+    <a href="{{site.baseurl}}/csse/javascript/fundamentals/strings/hacks"
+    style="text-decoration: none;">
+        <div style="background-color: #FFC300; color: black; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Strings Hack
+        </div>
+    </a>
 </div>
 
 <br>
@@ -153,6 +159,16 @@ This blog contains my journey into Coding.
     <a href="https://github.com/buythesenbundle/ethanf_2025/issues/14" style="text-decoration: none;">
         <div style="background-color: #C70039; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Feedback
+        </div>
+    </a>
+</div>
+
+## Sprint 4 Reflection
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/navigation/sprint4" style="text-decoration: none;">
+        <div style="background-color:rgb(125, 10, 42); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Sprint 4 Reflection
         </div>
     </a>
 </div>
