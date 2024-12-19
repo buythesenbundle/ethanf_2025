@@ -27,3 +27,6 @@ Throughout the entirety of Sprint 4, I was trying to fix the jump function. Luca
 
 ### Overall
 I think I learned a good bit about how games run and operate + some other things by tinkering with the game's code. There's been some obstacles, but I think I've been successful overall.
+
+Total Commits: 
+![image](https://github.com/user-attachments/assets/c4cb1f00-b8b6-47e5-a371-d708b86e7733)
