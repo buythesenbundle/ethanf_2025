@@ -18,6 +18,9 @@ Then placed the game objects (learned how to change the position of objects in t
 I also learned how to properly make a randomizer function, which allowed me to add a random music feature that plays a random Tyler song each time the level starts, shown here:
 ![image](https://github.com/user-attachments/assets/450ae17c-cb49-4a16-9efb-4defb53509ea)
 
+Finally, I added a boolean variable to control the block glow, so it can be easily changed later on (currently toggled off):
+![image](https://github.com/user-attachments/assets/4657e0d7-2276-43d4-90cd-b2143e2c268c)
+
 ### Challenges
 
 Throughout the entirety of Sprint 4, I was trying to fix the jump function. Lucas readded the missing jump logic, but that broke when standing on platforms. I found out that this was because the game was still applying gravity onto mario despite already being on a solid object by adding a console.log function whenever gravity was active, but I still haven't found a fix for it. 
