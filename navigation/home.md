@@ -172,3 +172,13 @@ This blog contains my journey into Coding.
         </div>
     </a>
 </div>
+
+## Sprint 6 Blog
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/platformerblog/" style="text-decoration: none;">
+        <div style="background-color:rgb(48, 3, 16); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Sprint 6 Blog
+        </div>
+    </a>
+</div>
