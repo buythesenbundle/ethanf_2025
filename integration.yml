@@ -1,0 +1,13 @@
+name: build the freaking game
+on: push
+jobs:
+  build-project:
+    name: build the project
+    runs-on: ubuntu-latest
+    steps:
+  - uses: actions/download-artifact@v4
+    with:
+      name: my-artifact
+  - name: Display structure of downloaded files
+    run: ls -R
+
