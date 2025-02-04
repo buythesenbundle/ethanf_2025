@@ -23,23 +23,23 @@ class GameLevelDesert {
     };
 
 
-    // Player data for Chillguy
-    const sprite_src_chillguy = path + "/images/gamify/chillguy.png"; // be sure to include the path
-    const CHILLGUY_SCALE_FACTOR = 5;
-    const sprite_data_chillguy = {
-        id: 'Chill Guy',
+    // Player data for Cat
+    const sprite_src_cat = path + "/images/gamify/cat.png"; // be sure to include the path
+    const CAT_SCALE_FACTOR = 7;
+    const sprite_data_cat = {
+        id: 'Cat',
         greeting: "Hi I am Chill Guy, the desert wanderer. I am looking for wisdome and adventure!",
-        src: sprite_src_chillguy,
-        SCALE_FACTOR: CHILLGUY_SCALE_FACTOR,
+        src: sprite_src_cat,
+        SCALE_FACTOR: CAT_SCALE_FACTOR,
         STEP_FACTOR: 1000,
-        ANIMATION_RATE: 50,
-        INIT_POSITION: { x: 0, y: height - (height/CHILLGUY_SCALE_FACTOR) }, 
-        pixels: {height: 384, width: 512},
-        orientation: {rows: 3, columns: 4 },
+        ANIMATION_RATE: 15,
+        INIT_POSITION: { x: 0, y: height - (height/CAT_SCALE_FACTOR) }, 
+        pixels: {height: 115, width: 235},
+        orientation: {rows: 2, columns: 5 },
         down: {row: 0, start: 0, columns: 3 },
-        left: {row: 2, start: 0, columns: 3 },
-        right: {row: 1, start: 0, columns: 3 },
-        up: {row: 3, start: 0, columns: 3 },
+        left: {row: 0, start: 0, columns: 3 },
+        right: {row: 0, start: 0, columns: 3 },
+        up: {row: 0, start: 0, columns: 2 },
         hitbox: { widthPercentage: 0.45, heightPercentage: 0.2 },
         keypress: { up: 87, left: 65, down: 83, right: 68 } // W, A, S, D
     };
@@ -174,7 +174,7 @@ const sprite_data_htmlhank = {
     // List of objects defnitions for this level
     this.objects = [
       { class: Background, data: image_data_desert },
-      { class: Player, data: sprite_data_chillguy },
+      { class: Player, data: sprite_data_cat },
       { class: Npc, data: sprite_data_tux },
       { class: Npc, data: sprite_data_octocat },
       { class: Npc, data: sprite_data_robot },
