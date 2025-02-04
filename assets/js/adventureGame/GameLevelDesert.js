@@ -28,7 +28,7 @@ class GameLevelDesert {
     const CAT_SCALE_FACTOR = 7;
     const sprite_data_cat = {
         id: 'Cat',
-        greeting: "Hi I am Chill Guy, the desert wanderer. I am looking for wisdome and adventure!",
+        greeting: "battle cat!11!!!",
         src: sprite_src_cat,
         SCALE_FACTOR: CAT_SCALE_FACTOR,
         STEP_FACTOR: 1000,
