@@ -182,3 +182,21 @@ This blog contains my journey into Coding.
         </div>
     </a>
 </div>
+
+## Adventure Game
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/adventure-ideation/" style="text-decoration: none;">
+        <div style="background-color:rgb(19, 1, 6); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Adventure Game Ideation
+        </div>
+    </a>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <a href="{{site.baseurl}}/gamify/adventureGame" style="text-decoration: none;">
+        <div style="background-color:rgb(19, 1, 6); color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
+            Adventure Game
+        </div>
+    </a>
+</div>

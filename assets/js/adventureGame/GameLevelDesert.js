@@ -14,7 +14,7 @@ class GameLevelDesert {
 
 
     // Background data
-    const image_src_desert = path + "/images/gamify/desert.png"; // be sure to include the path
+    const image_src_desert = path + "/images/gamify/Grass_Sample.png"; // be sure to include the path
     const image_data_desert = {
         name: 'desert',
         greeting: "Welcome to the desert!  It is hot and dry here, but there are many adventures to be had!",
@@ -33,7 +33,7 @@ class GameLevelDesert {
         SCALE_FACTOR: CAT_SCALE_FACTOR,
         STEP_FACTOR: 1000,
         ANIMATION_RATE: 15,
-        INIT_POSITION: { x: 0, y: height - (height/CAT_SCALE_FACTOR) }, 
+        INIT_POSITION: { x: GameEnv.innerWidth, y: height - (height/CAT_SCALE_FACTOR) }, 
         pixels: {height: 115, width: 235},
         orientation: {rows: 2, columns: 5 },
         down: {row: 0, start: 0, columns: 3 },
@@ -76,6 +76,21 @@ class GameLevelDesert {
         }
       };
 
+      // NPC data for Trash Cat 
+    const sprite_src_trashcat = path + "/images/gamify/trashcat.png"; // be sure to include the path
+    const sprite_data_trashcat = {
+        id: 'Trash_Cat',
+        greeting: "give me money",
+        src: sprite_src_trashcat,
+        SCALE_FACTOR: 3.5,  // Adjust this based on your scaling needs
+        ANIMATION_RATE: 10,
+        pixels: {height: 128, width: 256},
+        INIT_POSITION: { x: (width / 3), y: (height / 5)},
+        orientation: {rows: 1, columns: 2 },
+        down: {row: 0, start: 0, columns: 2 },  // This is the stationary npc, down is default 
+        hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
+        // Linux command quiz
+    };
 
 
       // NPC data for Octocat
@@ -107,7 +122,7 @@ class GameLevelDesert {
             "Which command is used to view the commit history?\n1. git log\n2. git history\n3. git commits\n4. git show"
           ] 
         }
-    }
+    };
   
 
     const sprite_src_robot = path + "/images/gamify/robot.png"; // be sure to include the path
@@ -178,6 +193,7 @@ const sprite_data_htmlhank = {
       { class: Npc, data: sprite_data_tux },
       { class: Npc, data: sprite_data_octocat },
       { class: Npc, data: sprite_data_robot },
+      { class: Npc, data: sprite_data_trashcat },
      // { class: Npc, data: sprite_data_htmlhank }, 
     ];
   }
