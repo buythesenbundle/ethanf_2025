@@ -77,17 +77,17 @@ class GameLevelDesert {
       };
 
       // NPC data for Trash Cat 
-    const sprite_src_trashcat = path + "/images/gamify/trashcat.png"; // be sure to include the path
+    const sprite_src_trashcat = path + "/images/gamify/trashcat1.png"; // be sure to include the path
     const sprite_data_trashcat = {
         id: 'Trash_Cat',
         greeting: "give me money",
         src: sprite_src_trashcat,
         SCALE_FACTOR: 3.5,  // Adjust this based on your scaling needs
-        ANIMATION_RATE: 15,
-        pixels: {height: 128, width: 256},
-        INIT_POSITION: { x: (width / 3), y: (height / 5)},
-        orientation: {rows: 1, columns: 2 },
-        down: {row: 0, start: 0, columns: 2 },  // This is the stationary npc, down is default 
+        ANIMATION_RATE: 5,
+        pixels: {height: 160, width: 480},
+        INIT_POSITION: { x: (width / 7), y: (height / 2.25)},
+        orientation: {rows: 1, columns: 4 },
+        down: {row: 0, start: 0, columns: 4 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
     };
