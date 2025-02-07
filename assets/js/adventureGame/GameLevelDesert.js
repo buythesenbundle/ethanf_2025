@@ -83,7 +83,7 @@ class GameLevelDesert {
         greeting: "give me money",
         src: sprite_src_trashcat,
         SCALE_FACTOR: 3.5,  // Adjust this based on your scaling needs
-        ANIMATION_RATE: 10,
+        ANIMATION_RATE: 15,
         pixels: {height: 128, width: 256},
         INIT_POSITION: { x: (width / 3), y: (height / 5)},
         orientation: {rows: 1, columns: 2 },
