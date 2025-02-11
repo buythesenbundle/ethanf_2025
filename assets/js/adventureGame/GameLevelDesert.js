@@ -14,7 +14,7 @@ class GameLevelDesert {
 
 
     // Background data
-    const image_src_desert = path + "/images/gamify/Grass_Sample.png"; // be sure to include the path
+    const image_src_desert = path + "/images/gamify/grassbg.jpg"; // be sure to include the path
     const image_data_desert = {
         name: 'desert',
         greeting: "Welcome to the desert!  It is hot and dry here, but there are many adventures to be had!",
@@ -85,7 +85,7 @@ class GameLevelDesert {
         SCALE_FACTOR: 3.5,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 5,
         pixels: {height: 160, width: 480},
-        INIT_POSITION: { x: (width / 7), y: (height / 2.25)},
+        INIT_POSITION: { x: (width / 2.14), y: (height / 9)},
         orientation: {rows: 1, columns: 4 },
         down: {row: 0, start: 0, columns: 4 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
