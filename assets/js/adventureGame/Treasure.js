@@ -40,7 +40,7 @@ class Treasure extends Character {
      * @param {Object} event - The keyup event.
      */
     handleKeyUp({ key }) {
-        if (key === 'e' || key === 'u') {
+        if (key === 'e') {
             // Clear any active timeouts when the interaction key is released
             if (this.alertTimeout) {
                 clearTimeout(this.alertTimeout);
@@ -53,10 +53,15 @@ class Treasure extends Character {
      * @returns {string} - The next quiz question.
      */
     logCollection() {
-        var collision = 0;
-        collision ++;
-        console.log("Treasures Collected: ", collision);
-        this.destroy();
+        const players = GameEnv.gameObjects.filter(obj => obj.state.collisionEvents.includes(this.spriteData.id));
+        if (players.length > 0 && players.length < 100) {
+            collision ++;
+            console.log("Treasures Collected: ", collision);
+            this.destroy();
+        }
     }
 }
+
+var collision = 0;
+
 export default Treasure;

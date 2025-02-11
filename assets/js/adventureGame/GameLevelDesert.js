@@ -171,6 +171,21 @@ class GameLevelDesert {
         // Linux command quiz
     };
 
+    const sprite_src_stone_cat = path + "/images/gamify/stone_cat.png"; // be sure to include the path
+    const sprite_data_stone_cat = {
+        id: 'stone_cat',
+        greeting: "You found the Stone Cat! This is a unit that you can use in-game to send to the frontline and block enemy attacks! (Press E to collect)",
+        src: sprite_src_stone_cat,
+        SCALE_FACTOR: 3.5,  // Adjust this based on your scaling needs
+        ANIMATION_RATE: 5,
+        pixels: {height: 128, width: 128},
+        INIT_POSITION: { x: (width / 2), y: (height / 1.5)},
+        orientation: {rows: 1, columns: 1 },
+        down: {row: 0, start: 0, columns: 1 },  // This is the stationary npc, down is default 
+        hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
+        // Linux command quiz
+    };
+
   /*  // NPC data for HTML Hank
 const sprite_src_htmlhank = path + "/images/gamify/htmlhank.png"; // be sure to include the path
 const sprite_data_htmlhank = {
@@ -210,7 +225,8 @@ const sprite_data_htmlhank = {
       { class: Npc, data: sprite_data_octocat },
       { class: Npc, data: sprite_data_robot },
       { class: Npc, data: sprite_data_trashcat },
-      {class: Treasure, data: sprite_data_epic_catfruit}
+      { class: Treasure, data: sprite_data_epic_catfruit},
+      { class: Treasure, data: sprite_data_stone_cat},
      // { class: Npc, data: sprite_data_htmlhank }, 
     ];
   }
