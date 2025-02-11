@@ -3,6 +3,7 @@ import GameEnv from './GameEnv.js';
 import Background from './Background.js';
 import Player from './Player.js';
 import Npc from './Npc.js';
+import Treasure from './Treasure.js';
 
 class GameLevelDesert {
   constructor(path) {
@@ -155,6 +156,21 @@ class GameLevelDesert {
         }
       };
 
+    const sprite_src_epic_catfruit = path + "/images/gamify/epic_catfruit.png"; // be sure to include the path
+    const sprite_data_epic_catfruit = {
+        id: 'epic_catfruit',
+        greeting: "You found an epic catfruit seed! In the Battle Cats, this is a rare and powerful item used to evolve your cats to make them stronger! (Press E to collect)",
+        src: sprite_src_epic_catfruit,
+        SCALE_FACTOR: 3.5,  // Adjust this based on your scaling needs
+        ANIMATION_RATE: 5,
+        pixels: {height: 128, width: 128},
+        INIT_POSITION: { x: (width / 2), y: (height / 3)},
+        orientation: {rows: 1, columns: 1 },
+        down: {row: 0, start: 0, columns: 1 },  // This is the stationary npc, down is default 
+        hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
+        // Linux command quiz
+    };
+
   /*  // NPC data for HTML Hank
 const sprite_src_htmlhank = path + "/images/gamify/htmlhank.png"; // be sure to include the path
 const sprite_data_htmlhank = {
@@ -194,6 +210,7 @@ const sprite_data_htmlhank = {
       { class: Npc, data: sprite_data_octocat },
       { class: Npc, data: sprite_data_robot },
       { class: Npc, data: sprite_data_trashcat },
+      {class: Treasure, data: sprite_data_epic_catfruit}
      // { class: Npc, data: sprite_data_htmlhank }, 
     ];
   }
