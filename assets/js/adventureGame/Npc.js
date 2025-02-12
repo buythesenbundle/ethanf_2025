@@ -1,6 +1,8 @@
 import GameEnv from "./GameEnv.js";
 import Character from "./Character.js";
 import Prompt from "./Prompt.js";
+import Treasure from "./Treasure.js";
+import { treasures } from "./Treasure.js";
 class Npc extends Character {
     constructor(data = null) {
         super(data);
@@ -31,8 +33,7 @@ class Npc extends Character {
     handleKeyDown({ key }) {
         switch (key) {
             case 'e': // Player 1 interaction
-            case 'u': // Player 2 interaction
-                this.shareQuizQuestion();
+                this.countTreasure();
                 break;
         }
     }
@@ -41,7 +42,7 @@ class Npc extends Character {
      * @param {Object} event - The keyup event.
      */
     handleKeyUp({ key }) {
-        if (key === 'e' || key === 'u') {
+        if (key === 'e') {
             // Clear any active timeouts when the interaction key is released
             if (this.alertTimeout) {
                 clearTimeout(this.alertTimeout);
@@ -49,31 +50,22 @@ class Npc extends Character {
             }
         }
     }
-    /**
-     * Get the next question in the shuffled array.
-     * @returns {string} - The next quiz question.
-     */
-    getNextQuestion() {
-        const question = this.questions[this.currentQuestionIndex];
-        this.currentQuestionIndex = (this.currentQuestionIndex + 1) % this.questions.length; // Cycle through questions
-        return question;
-    }
-    /**
-     * Handle proximity interaction and share a quiz question.
-     */
-    shareQuizQuestion() {
+
+    countTreasure() {
         const players = GameEnv.gameObjects.filter(obj => obj.state.collisionEvents.includes(this.spriteData.id));
-        const hasQuestions = this.questions.length > 0;
-        if (players.length > 0 && hasQuestions) {
-            players.forEach(player => {
-                if (!Prompt.isOpen) {
-                    // Assign this NPC as the current NPC in the Prompt system
-                    Prompt.currentNpc = this;
-                    // Open the Prompt panel with this NPC's details
-                    Prompt.openPromptPanel(this);
-                }
-            });
+        if (players.length > 0 && players.length < 100) {
+            if (treasures === 3) {
+                levelComplete = true;
+                console.log("Level Complete");
+            }
         }
     }
 }
+
+var levelComplete = false;
+
 export default Npc;
+export var levelComplete;
+export function resetLevelComplete() {
+    levelComplete = false;
+}

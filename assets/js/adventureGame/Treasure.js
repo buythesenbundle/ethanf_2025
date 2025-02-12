@@ -55,13 +55,17 @@ class Treasure extends Character {
     logCollection() {
         const players = GameEnv.gameObjects.filter(obj => obj.state.collisionEvents.includes(this.spriteData.id));
         if (players.length > 0 && players.length < 100) {
-            collision ++;
-            console.log("Treasures Collected: ", collision);
+            treasures ++;
+            console.log("Treasures Collected: ", treasures);
             this.destroy();
         }
     }
 }
 
-var collision = 0;
+var treasures = 0;
 
 export default Treasure;
+export var treasures;
+export function modifyTreasures() {
+     treasures = 0;
+    }
