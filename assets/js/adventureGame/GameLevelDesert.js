@@ -61,15 +61,15 @@ class GameLevelDesert {
         // Linux command quiz
     };
 
-    const sprite_src_epic_catfruit = path + "/images/gamify/epic_catfruit.png"; // be sure to include the path
-    const sprite_data_epic_catfruit = {
-        id: 'epic_catfruit',
+    const sprite_src_epic_seed = path + "/images/gamify/epic_seed.png"; // be sure to include the path
+    const sprite_data_epic_seed = {
+        id: 'epic_seed',
         greeting: "You found an epic catfruit seed! In the Battle Cats, this is a rare and powerful item used to evolve your cats to make them stronger! (Press E to collect)",
-        src: sprite_src_epic_catfruit,
-        SCALE_FACTOR: 3.5,  // Adjust this based on your scaling needs
+        src: sprite_src_epic_seed,
+        SCALE_FACTOR: 7,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 5,
         pixels: {height: 128, width: 128},
-        INIT_POSITION: { x: (width / 2), y: (height / 3)},
+        INIT_POSITION: { x: (width / 22), y: (height / 1.5)},
         orientation: {rows: 1, columns: 1 },
         down: {row: 0, start: 0, columns: 1 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
@@ -81,16 +81,30 @@ class GameLevelDesert {
         id: 'stone_cat',
         greeting: "You found the Stone Cat! This is a unit that you can use in-game to send to the frontline and block enemy attacks! (Press E to collect)",
         src: sprite_src_stone_cat,
-        SCALE_FACTOR: 3.5,  // Adjust this based on your scaling needs
+        SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 5,
         pixels: {height: 128, width: 128},
-        INIT_POSITION: { x: (width / 2), y: (height / 1.5)},
+        INIT_POSITION: { x: (width / 3.45), y: (height / 22)},
         orientation: {rows: 1, columns: 1 },
         down: {row: 0, start: 0, columns: 1 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
     };
 
+    const sprite_src_floating_orb = path + "/images/gamify/floating_orb.png"; // be sure to include the path
+    const sprite_data_floating_orb = {
+        id: 'floating_orb',
+        greeting: "You found an S tier floating damage up talent orb! In game, talent orbs are used on units to boost their stats and make them stronger against certain types of enemies! (Press E to collect)",
+        src: sprite_src_floating_orb,
+        SCALE_FACTOR: 15,  // Adjust this based on your scaling needs
+        ANIMATION_RATE: 5,
+        pixels: {height: 87, width: 87},
+        INIT_POSITION: { x: (width / 1.266), y: (height / 7.2)},
+        orientation: {rows: 1, columns: 1 },
+        down: {row: 0, start: 0, columns: 1 },  // This is the stationary npc, down is default 
+        hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
+        // Linux command quiz
+    };
   /*  // NPC data for HTML Hank
 const sprite_src_htmlhank = path + "/images/gamify/htmlhank.png"; // be sure to include the path
 const sprite_data_htmlhank = {
@@ -127,8 +141,9 @@ const sprite_data_htmlhank = {
       { class: Background, data: image_data_desert },
       { class: Player, data: sprite_data_cat },
       { class: Npc, data: sprite_data_trashcat },
-      { class: Treasure, data: sprite_data_epic_catfruit},
+      { class: Treasure, data: sprite_data_epic_seed},
       { class: Treasure, data: sprite_data_stone_cat},
+      { class: Treasure, data: sprite_data_floating_orb},
      // { class: Npc, data: sprite_data_htmlhank }, 
     ];
   }
