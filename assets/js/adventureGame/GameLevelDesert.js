@@ -49,7 +49,7 @@ class GameLevelDesert {
     const sprite_src_trashcat = path + "/images/gamify/trashcat1.png"; // be sure to include the path
     const sprite_data_trashcat = {
         id: 'Trash_Cat',
-        greeting: "give me money",
+        greeting: "Please give me treasure!!! I'll let you pass to the next level if you give me 3! (E to interact)",
         src: sprite_src_trashcat,
         SCALE_FACTOR: 3.5,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 5,
