@@ -66,6 +66,6 @@ var treasures = 0;
 
 export default Treasure;
 export var treasures;
-export function modifyTreasures() {
+export function resetTreasures() {
      treasures = 0;
     }

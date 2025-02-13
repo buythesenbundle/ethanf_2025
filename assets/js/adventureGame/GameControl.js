@@ -3,7 +3,7 @@ import GameLevelWater from './GameLevelWater.js';
 import GameLevelDesert from './GameLevelDesert.js';
 import { getStats } from "./StatsManager.js";
 import { levelComplete, resetLevelComplete } from "./Npc.js";
-import { modifyTreasures, treasures } from "./Treasure.js";
+import { resetTreasures, treasures } from "./Treasure.js";
 
 
 
@@ -139,7 +139,7 @@ const GameControl = {
         document.addEventListener('keydown', (event) => {
             if (event.key === 'Escape' || levelComplete === true) {
                 GameEnv.continueLevel = false;
-                modifyTreasures();
+                resetTreasures();
                 resetLevelComplete();
             }
         });
