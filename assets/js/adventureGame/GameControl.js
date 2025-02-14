@@ -7,24 +7,6 @@ import { resetTreasures, treasures } from "./Treasure.js";
 
 
 
-const createStatsUI = () => {
-    const statsContainer = document.createElement('div');
-    statsContainer.id = 'stats-container';
-    statsContainer.style.position = 'fixed';
-    statsContainer.style.top = '10px';
-    statsContainer.style.right = '10px';
-    statsContainer.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
-    statsContainer.style.color = 'white';
-    statsContainer.style.padding = '10px';
-    statsContainer.style.borderRadius = '5px';
-    statsContainer.innerHTML = `
-        <div>Balance: <span id="balance">0</span></div>
-        <div>Chat Score: <span id="chatScore">0</span></div>
-        <div>Questions Answered: <span id="questionsAnswered">0</span></div>
-    `;
-    document.body.appendChild(statsContainer);
-};
-
 /**
  * The GameControl object manages the game.
  * 
