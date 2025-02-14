@@ -55,17 +55,17 @@ class Npc extends Character {
         const players = GameEnv.gameObjects.filter(obj => obj.state.collisionEvents.includes(this.spriteData.id));
         if (players.length > 0 && players.length < 100) {
             if (treasures === 3) {
-                levelComplete = true;
+                questComplete = true;
                 console.log("Level Complete");
             }
         }
     }
 }
 
-var levelComplete = false;
+var questComplete = false;
 
 export default Npc;
-export var levelComplete;
-export function resetLevelComplete() {
-    levelComplete = false;
+export var questComplete;
+export function resetQuestComplete() {
+    questComplete = false;
 }
