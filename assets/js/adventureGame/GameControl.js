@@ -55,7 +55,7 @@ const GameControl = {
     },
     
     loadLevelObjects: function(gameInstance) {
-        this.initStatsUI();
+        // this.initStatsUI();
         // Instantiate the game objects
         for (let object of gameInstance.objects) {
             if (!object.data) object.data = {};
@@ -231,7 +231,7 @@ const GameControl = {
     },  
 
     // Initialize UI for game stats
-    initStatsUI: function() {
+    /* initStatsUI: function() {
         const statsContainer = document.createElement('div');
         statsContainer.id = 'stats-container';
         statsContainer.style.position = 'fixed';
@@ -247,7 +247,7 @@ const GameControl = {
             <div>Questions Answered: <span id="questionsAnswered">0</span></div>
         `;
         document.body.appendChild(statsContainer);
-    },
+    }, */
 
 };
 
