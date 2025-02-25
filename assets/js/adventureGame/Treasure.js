@@ -56,7 +56,7 @@ class Treasure extends Character {
         const players = GameEnv.gameObjects.filter(obj => obj.state.collisionEvents.includes(this.spriteData.id));
         if (players.length > 0 && players.length < 100) {
             treasures ++;
-            console.log("Treasures Collected: ", treasures);
+            console.log("Treasures Collected: ", treasures, "/3");
             this.destroy();
         }
     }

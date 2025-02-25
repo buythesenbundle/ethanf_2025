@@ -90,7 +90,7 @@ permalink: /gamify/adventureGame
     <div>Questions Answered: <span id="questionsAnswered">0</span></div>
     
     <!-- NPC Tracker Button added below the stats -->
-    <button id="npcTrackerButton">NPC Tracker</button>
+    <button id="npcTrackerButton">Treasure Tracker</button>
 </div>
 
 <div id="gameContainer">
@@ -100,7 +100,7 @@ permalink: /gamify/adventureGame
 
 <!-- NPC Tracker Pop-up -->
 <div id="npcTrackerPopup">
-    <h2>NPCs Met:</h2>
+    <h2>Treasures Found:</h2>
     <ul id="npcTrackerList"></ul>
 </div>
 
@@ -166,7 +166,7 @@ permalink: /gamify/adventureGame
     // Function to track NPC interactions
     function trackNpcInteraction() {
         // List of possible NPCs to track (in order)
-        const possibleNpcs = ["Tux", "Octocat", "Linux Robot", "Trash Cat"];
+        const possibleNpcs = ["Floating Orb", "Stone Cat", "Epic Seed"];
 
         // If the player hasn't interacted yet, add the next NPC in order
         if (npcTracker.length < possibleNpcs.length) {
