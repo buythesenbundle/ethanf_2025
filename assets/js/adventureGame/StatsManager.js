@@ -1,5 +1,4 @@
 import { javaURI, fetchOptions } from "../api/config.js";
-import { treasures } from "./Treasure.js"; // Import treasures variable
 
 /**
  * Fetches and updates the game stats UI (Balance, Chat Score, Questions Answered).
@@ -23,10 +22,15 @@ export function getStats() {
 }
 
 /**
- * Fetches the player's current balance from the treasures variable.
+ * Fetches the player's current balance.
  */
 export function getBalance() {
-    document.getElementById("balance").innerText = treasures ?? 0;
+    fetch(`${javaURI}/rpg_answer/getBalance/1`, fetchOptions)
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("balance").innerText = data ?? 0;
+        })
+        .catch(err => console.error("Error fetching balance:", err));
 }
 
 /**
