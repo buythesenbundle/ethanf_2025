@@ -86,7 +86,7 @@ All needed jupyter notebooks (8 blogs -- skills learned, burndowns, student less
 
 3. Student lessons (classes and methods):
     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-        <a href="{{site.baseurl}}/ethanf_2025/csse/javascript/fundamentals/classes/statics/" style="text-decoration: none;">
+        <a href="{{site.baseurl}}/csse/javascript/fundamentals/classes/statics/" style="text-decoration: none;">
             <div style="background-color:rgb(254, 254, 254); color: black; padding: 10px 20px; border-radius:   5px; font-weight: bold;">
                 Lesson
             </div>
@@ -95,7 +95,7 @@ All needed jupyter notebooks (8 blogs -- skills learned, burndowns, student less
 
 4. Create RPG game:
     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-        <a href="{{site.baseurl}}/ethanf_2025/rpg0.2x" style="text-decoration: none;">
+        <a href="{{site.baseurl}}/rpg0.2x" style="text-decoration: none;">
             <div style="background-color:rgb(254, 254, 254); color: black; padding: 10px 20px; border-radius:   5px; font-weight: bold;">
                 RPG
             </div>
@@ -104,7 +104,7 @@ All needed jupyter notebooks (8 blogs -- skills learned, burndowns, student less
 
 5. About Me page
     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-        <a href="{{site.baseurl}}/ethanf_2025/about" style="text-decoration: none;">
+        <a href="{{site.baseurl}}/about" style="text-decoration: none;">
             <div style="background-color:rgb(254, 254, 254); color: black; padding: 10px 20px; border-radius:   5px; font-weight: bold;">
                 About
             </div>
