@@ -36,7 +36,7 @@ permalink: /gamify/adventureGame
 }
 
 /* New button style for NPC Tracker */
-#npcTrackerButton {
+/* #npcTrackerButton {
     position: relative;
     display: block;
     margin: 15px auto;
@@ -50,7 +50,7 @@ permalink: /gamify/adventureGame
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     z-index: 1000;
-}
+} */
 
 #npcTrackerButton:hover {
     background-color: #5a9bd3;
