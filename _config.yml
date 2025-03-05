@@ -22,7 +22,6 @@ plugins:
 header_pages:
   - navigation/home.md
   - navigation/blog.md
-  - navigation/rpg0.2x.md
   - navigation/search.md
   - navigation/about.md
-  - README4YML.md
+  - navigation/finalblog.md
